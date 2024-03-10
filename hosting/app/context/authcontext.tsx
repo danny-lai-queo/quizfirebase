@@ -3,7 +3,7 @@ import { useContext, createContext, useState, useEffect, Context, Component } fr
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from "react-redux";
 import { signInWithPopup, signOut, onAuthStateChanged, GoogleAuthProvider, User } from 'firebase/auth';
-import { auth } from '../firebase';
+import { auth } from "@/lib/firebase/firebase";
 // import { init } from "next/dist/compiled/@vercel/og/satori";
 
 // type User = {
